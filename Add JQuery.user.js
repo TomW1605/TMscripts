@@ -7,6 +7,8 @@
 // @match        http://*/*
 // @match        https://*/*
 // @grant        none
+// @run-at       context-menu
+// @noframes
 // ==/UserScript==
 
 (function() {
@@ -14,13 +16,16 @@
 
     try {
         console.log('jQuery '+jQuery.fn.jquery+' is already loaded');
+        alert('jQuery '+jQuery.fn.jquery+' is already loaded');
     } catch (e) {
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = function () {
             console.log('jQuery '+jQuery.fn.jquery+' has been loaded');
+            alert('jQuery '+jQuery.fn.jquery+' has been loaded');
         };
         script.src = 'https://code.jquery.com/jquery-3.1.1.min.js';
         document.head.appendChild(script);
     }
+
 })();
