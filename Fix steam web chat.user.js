@@ -10,12 +10,6 @@
 
 (function() {
     'use strict';
-
-    //var script = document.createElement('script');
-    //script.type = 'text/javascript';
-    //script.src = 'file:///Users/159819/Documents/jquery-3.1.1.min.js';
-    //document.head.appendChild(script);
-
     var log = document.getElementById('chatlog');
 
     var chatObserver = new MutationObserver(function(mutations) {
@@ -130,6 +124,7 @@
         this.m_cConsecutivePollFailures = 0;
         this.Poll();
     };
+    
     /*CWebChatDialog.prototype.RenderChatMessage = function( Sender, timestamp, strMessage, eMessageType )
     {
         $J('#latest').removeAttr("id");
