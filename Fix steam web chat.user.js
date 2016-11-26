@@ -6,6 +6,7 @@
 // @author       TomW1605
 // @match        https://steamcommunity.com/chat
 // @grant        none
+// @supportURL   https://github.com/TomW1605/TMscripts/issues
 // ==/UserScript==
 
 (function() {
