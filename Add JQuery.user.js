@@ -9,6 +9,7 @@
 // @grant        none
 // @run-at       context-menu
 // @noframes
+// @supportURL   https://github.com/TomW1605/TMscripts/issues
 // ==/UserScript==
 
 (function() {
