@@ -14,6 +14,6 @@
 (function() {
     'use strict';
 
-    $(function(){$('input[autocomplete="off"]').attr("autocomplete", "on")});
+    $(function(){$('input[autocomplete="off"]').attr("autocomplete", "on");});
 
 })();
