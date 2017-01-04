@@ -2,26 +2,18 @@
 // @name         enableAutocomplete
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  removes the Autocomplete="off" from forum inputs
+// @description  changes the autocomplete="off" on forum inputs to autocomplete="on"
 // @author       TomW1605
 // @match        http://*/*
 // @match        https://*/*
 // @grant        none
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
+// @require https://code.jquery.com/jquery-2.1.4.min.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    function enableAutocomplete()
-    {
-        var snapshot = document.evaluate('//@autocomplete',
-                                         document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null),
-            numItems = snapshot.snapshotLength - 1;
-
-        for (var i = numItems; i >= 0; i--)
-            snapshot.snapshotItem(i).nodeValue = 'on';
-    }
-    window.addEventListener('DOMContentLoaded', enableAutocomplete, false);
+    $(function(){$('input[autocomplete="off"]').attr("autocomplete", "on")})
 
 })();
