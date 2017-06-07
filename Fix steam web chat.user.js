@@ -7,6 +7,8 @@
 // @match        https://steamcommunity.com/chat
 // @grant        none
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
+// @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/Fix%20steam%20web%20chat.user.js
+// @updateURL    https://github.com/TomW1605/TMscripts/raw/master/Fix%20steam%20web%20chat.user.js
 // ==/UserScript==
 
 (function() {
