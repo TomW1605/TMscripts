@@ -9,6 +9,8 @@
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require      https://code.jquery.com/jquery-3.1.1.min.js
+// @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/Remove%20show%20me%20how.user.js
+// @updateURL    https://github.com/TomW1605/TMscripts/raw/master/Remove%20show%20me%20how.user.js
 // ==/UserScript==
 
 (function() {
