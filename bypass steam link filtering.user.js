@@ -5,6 +5,7 @@
 // @description  bypass steam link filtering
 // @author       TomW1605
 // @match        https://steamcommunity.com/*
+// @match        http://steamcommunity.com/*
 // @grant        none
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
 // @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/bypass%20steam%20link%20filtering.user.js
