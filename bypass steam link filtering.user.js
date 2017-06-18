@@ -20,5 +20,15 @@
     for (var i = 0; i < els.length; i++) {
         els[i].href = els[i].href.replace(/^(https:\/\/steamcommunity\.com\/linkfilter\/\?url=)/,"");
     }
+    
+    if (document.querySelectorAll('a[href="javascript:Forum_SetTopicsPerPage( 50 );"]').length !== 0 || document.querySelectorAll('a[href="javascript:Forum_SetTopicRepliesPerPage( 50 );"]').length !== 0) {
+        if (document.getElementsByClassName('forum_pagesize_options').length > 0) {
+            if (document.getElementsByClassName('topic_replies').length > 0) {
+                Forum_SetTopicRepliesPerPage(50);
+            } else {
+                Forum_SetTopicsPerPage(50);
+            }
+        }
+    }
 
 })();
