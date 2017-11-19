@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add JQuery
 // @namespace    TomW1605
-// @version      1
+// @version      0.1
 // @description  Add JQuery to all sites you visit if it isen't there already
 // @author       TomW1605
 // @match        http://*/*
@@ -10,8 +10,6 @@
 // @run-at       context-menu
 // @noframes
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
-// @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/Add%20JQuery.user.js
-// @updateURL    https://github.com/TomW1605/TMscripts/raw/master/Add%20JQuery.user.js
 // ==/UserScript==
 
 (function() {
