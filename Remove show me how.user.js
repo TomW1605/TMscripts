@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove "show me how"
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    TomW1605
+// @version      1
 // @description  Remove the anoying "show me how" button from cpanel
 // @author       TomW1605
 // @match        https://*/cpsess*/*
