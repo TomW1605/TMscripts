@@ -10,8 +10,6 @@
 // @include         http*://*.youtu.be/*
 // @include         http*://youtu.be/*
 // @supportURL      https://github.com/TomW1605/TMscripts/issues
-// @downloadURL     https://github.com/TomW1605/TMscripts/raw/master/Youtube:%20Space%20to%20Pause.user.js
-// @updateURL       https://github.com/TomW1605/TMscripts/raw/master/Youtube:%20Space%20to%20Pause.user.js
 // ==/UserScript==
 
 var k = function(action){
