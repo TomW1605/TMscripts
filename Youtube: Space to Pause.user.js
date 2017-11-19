@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name            Youtube: Space to Pause
 // @description     Bind the spacebar to play/pause the video.
-// @author          Chris H (Zren)
+// @author          TomW1605
 // @icon            https://youtube.com/favicon.ico
-// @namespace       http://xshade.ca
+// @namespace       TomW1605
 // @version         1
 // @include         http*://*.youtube.com/*
 // @include         http*://youtube.com/*
 // @include         http*://*.youtu.be/*
 // @include         http*://youtu.be/*
-// @supportURL   https://github.com/TomW1605/TMscripts/issues
-// @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/Youtube:%20Space%20to%20Pause.user.js
-// @updateURL    https://github.com/TomW1605/TMscripts/raw/master/Youtube:%20Space%20to%20Pause.user.js
+// @supportURL      https://github.com/TomW1605/TMscripts/issues
+// @downloadURL     https://github.com/TomW1605/TMscripts/raw/master/Youtube:%20Space%20to%20Pause.user.js
+// @updateURL       https://github.com/TomW1605/TMscripts/raw/master/Youtube:%20Space%20to%20Pause.user.js
 // ==/UserScript==
 
 var k = function(action){
