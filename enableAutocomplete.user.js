@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         enableAutocomplete
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    TomW1605
+// @version      1
 // @description  changes the autocomplete="off" on forum inputs to autocomplete="on"
 // @author       TomW1605
 // @match        http://*/*
