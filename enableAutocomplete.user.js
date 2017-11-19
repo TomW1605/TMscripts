@@ -10,8 +10,6 @@
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
 // @require      https://code.jquery.com/jquery-2.1.4.min.js
 // @run-at       context-menu
-// @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/enableAutocomplete.user.js
-// @updateURL    https://github.com/TomW1605/TMscripts/raw/master/enableAutocomplete.user.js
 // ==/UserScript==
 
 (function() {
