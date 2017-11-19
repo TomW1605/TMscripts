@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Unlock A+
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    TomW1605
+// @version      1
 // @description  unlockes the A+ content on litcharts
-// @author       You
+// @author       TomW1605
 // @match        http://www.litcharts.com/*
 // @grant        none
 // @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/Unlock%20A+.user.js
