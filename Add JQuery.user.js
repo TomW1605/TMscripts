@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add JQuery
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    TomW1605
+// @version      0.2
 // @description  Add JQuery to all sites you visit if it isen't there already
 // @author       TomW1605
 // @match        http://*/*
