@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bypass steam link filtering
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    TomW1605
+// @version      1
 // @description  bypass steam link filtering
 // @author       TomW1605
 // @match        https://steamcommunity.com/*
