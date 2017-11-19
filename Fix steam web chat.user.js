@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fix steam web chat
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    TomW1605
+// @version      1
 // @description  Fix some anoyances with the steam web chat
 // @author       TomW1605
 // @match        https://steamcommunity.com/chat
