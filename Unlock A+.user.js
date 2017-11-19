@@ -6,8 +6,6 @@
 // @author       TomW1605
 // @match        http://www.litcharts.com/*
 // @grant        none
-// @downloadURL  https://github.com/TomW1605/TMscripts/raw/master/Unlock%20A+.user.js
-// @updateURL    https://github.com/TomW1605/TMscripts/raw/master/Unlock%20A+.user.js
 // ==/UserScript==
  
 (function() {
