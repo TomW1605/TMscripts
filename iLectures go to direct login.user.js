@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  iLectures go to direct login
-// @author       You
+// @author       TomW1605
 // @match        https://login.echo360.org.au/login*
 // @grant        none
 // ==/UserScript==
