@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Download Youtube Part 2
-// @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Download Youtube Part 2
 // @author       TomW1605
