@@ -4,10 +4,10 @@
 // @version      0.1
 // @description  Download Youtube
 // @author       TomW1605
-// @include         http*://*.youtube.com/*
-// @include         http*://youtube.com/*
-// @include         http*://*.youtu.be/*
-// @include         http*://youtu.be/*
+// @include      http*://*.youtube.com/*
+// @include      http*://youtube.com/*
+// @include      http*://*.youtu.be/*
+// @include      http*://youtu.be/*
 // @grant        none
 // ==/UserScript==
 
