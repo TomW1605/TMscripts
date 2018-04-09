@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Download Youtube
-// @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Download Youtube
 // @author       TomW1605
