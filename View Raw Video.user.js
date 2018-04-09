@@ -8,6 +8,7 @@
 // @include      http*://*.youtu.be/*
 // @include      http*://youtu.be/*
 // @grant        none
+// @run-at       context-menu
 // ==/UserScript==
 
 (function() {
