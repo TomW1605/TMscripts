@@ -4,7 +4,10 @@
 // @version      0.1
 // @description  Download Youtube
 // @author       TomW1605
-// @match        https://www.youtube.com/watch?v=*
+// @include         http*://*.youtube.com/*
+// @include         http*://youtube.com/*
+// @include         http*://*.youtu.be/*
+// @include         http*://youtu.be/*
 // @grant        none
 // ==/UserScript==
 
