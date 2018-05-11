@@ -8,13 +8,14 @@
 // @match        https://*/*
 // @grant        none
 // @supportURL   https://github.com/TomW1605/TMscripts/issues
-// @require      https://code.jquery.com/jquery-2.1.4.min.js
+// @require      https://code.jquery.com/jquery-3.1.1.min.js
 // @run-at       context-menu
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    $(function(){$('input[autocomplete="off"]').attr("autocomplete", "on");});
+    jQuery.noConflict();
+    jQuery(function(){jQuery('input[autocomplete="off"]').attr("autocomplete", "on");});
 
 })();
