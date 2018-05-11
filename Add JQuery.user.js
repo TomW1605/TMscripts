@@ -22,8 +22,9 @@
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = function () {
-            console.log('jQuery '+jQuery.fn.jquery+' has been loaded');
-            alert('jQuery '+jQuery.fn.jquery+' has been loaded');
+            jQuery.noConflict();
+            console.log('jQuery '+jQuery.fn.jquery+' has been loaded as "jQuery"');
+            alert('jQuery '+jQuery.fn.jquery+' has been loaded as "jQuery"');
         };
         script.src = 'https://code.jquery.com/jquery-3.1.1.min.js';
         document.head.appendChild(script);
