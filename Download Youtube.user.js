@@ -7,7 +7,7 @@
 // @include      http*://youtube.com/*
 // @include      http*://*.youtu.be/*
 // @include      http*://youtu.be/*
-// @grant        none
+// @grant        GM_download
 // @run-at       context-menu
 // ==/UserScript==
 
@@ -20,6 +20,5 @@
         var temp = video[i].split("=");
         info[temp[0]] = decodeURIComponent(temp[1]);
     }
-    var url = info.url+"#"+encodeURI(ytplayer.config.args.title);
-    window.open(url,'_blank');
+    GM_download(info.url, ytplayer.config.args.title);
 })();
