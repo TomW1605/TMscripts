@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         symbolab popup remover
 // @namespace    TomW1605
-// @version      0.1
+// @version      0.2
 // @description  removes the popup symbolab shows after it has calculated the resault
 // @author       TomW1605
 // @match        https://www.symbolab.com/*
@@ -26,5 +26,14 @@
 
     waitForEl("[id^=tooltipster-] > div.tooltipster-box > div > div > a", function() {
         $("[id^=tooltipster-] > div.tooltipster-box > div > div > a")[0].click();
+    });
+
+    waitForEl('.showStepsButton, .locked-step', function() {
+        while ($('.showStepsButton, .locked-step').length != 0) {
+            $('.showStepsButton').parent().parent().click();
+            $('.locked-step').addClass('showStepsButton');
+            $('.locked-step').removeClass('locked-step');
+        }
+        $('.hideStepsButton').parent().parent().click();
     });
 })();
