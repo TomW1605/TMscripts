@@ -13,9 +13,77 @@
     'use strict';
 
     jQuery.noConflict();
+
+    //2017
+    jQuery("a:contains(' (Semester 1 2017 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 1 2017 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+    jQuery("a:contains(' (Semester 2 2017 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 2 2017 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+
+    //2018
     jQuery("a:contains(' (Semester 1 2018 Bentley Campus - INT[1])')").text(function(index, text) {
         var newText = text.replace(" (Semester 1 2018 Bentley Campus - INT[1])", "");
         console.log(newText);
         return newText;
     });
+    jQuery("a:contains(' (Semester 2 2018 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 2 2018 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+
+    //2019
+    jQuery("a:contains(' (Semester 1 2019 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 1 2019 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+    jQuery("a:contains(' (Semester 2 2019 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 2 2019 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+
+    //2020
+    jQuery("a:contains(' (Semester 1 2020 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 1 2020 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+    jQuery("a:contains(' (Semester 2 2020 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 2 2020 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+
+    //2021
+    jQuery("a:contains(' (Semester 1 2021 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 1 2021 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+    jQuery("a:contains(' (Semester 2 2021 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 2 2021 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+
+    //2022
+    jQuery("a:contains(' (Semester 1 2022 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 1 2022 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+    jQuery("a:contains(' (Semester 2 2022 Bentley Campus - INT[1])')").text(function(index, text) {
+        var newText = text.replace(" (Semester 2 2022 Bentley Campus - INT[1])", "");
+        console.log(newText);
+        return newText;
+    });
+
 })();
