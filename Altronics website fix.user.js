@@ -23,6 +23,8 @@
 // @match        https://www.altronics.com.au/cable/*/*
 // @match        https://www.altronics.com.au/books/*/*
 // @match        https://www.altronics.com.au/search/*
+// @match        https://www.altronics.com.au/specials/*
+// @match        https://www.altronics.com.au/new/*
 // ==/UserScript==
 
 (function() {
