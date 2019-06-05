@@ -11,7 +11,7 @@
 // @match        https://www.altronics.com.au/security/*/*
 // @match        https://www.altronics.com.au/test-measurement/*/*
 // @match        https://www.altronics.com.au/tools/*/*
-// @match        https://www.altronics.com.au/computers/*/*
+// @match        https://www.altronics.com.au/tech-data/*/*
 // @match        https://www.altronics.com.au/projects/*/*
 // @match        https://www.altronics.com.au/greenenergy-lighting/*/*
 // @match        https://www.altronics.com.au/power-supplies/*/*
