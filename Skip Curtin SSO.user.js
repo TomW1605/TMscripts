@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Skip Curtin SSO
 // @namespace    TomW1605
-// @version      0.2
+// @version      0.3
 // @description  Skip Curtin SSO
 // @author       TomW1605
 // @match        https://sso.curtin.edu.au/*
@@ -28,7 +28,7 @@
             }
         }
         numIntervals++;
-        if (numIntervals > 10) {
+        if (numIntervals > 30) {
             clearInterval(pwFilledTimer);
         }
     },200);
