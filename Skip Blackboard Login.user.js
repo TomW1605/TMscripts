@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Skip Blackboard Login
 // @namespace    TomW1605
-// @version      0.1
+// @version      0.2
 // @description  Skip Blackboard Login
 // @author       TomW1605
 // @match        https://lms.curtin.edu.au/webapps/login/
