@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Altronics website fix
 // @namespace    TomW1605
-// @version      3.0
+// @version      4.0
 // @description  fix the sorting and the number of items per page showne on the altronics site
 // @author       TomW1605
 // @run-at       document-start
@@ -32,18 +32,18 @@
     //console.log(window.location);
     var newURL = window.location.href;
     if(newURL=="https://www.altronics.com.au/specials/") {
-        newURL = window.location.origin + window.location.pathname + "?srt=9&pz=64" + window.location.hash;
+        newURL = window.location.origin + window.location.pathname + "?srt=9&pz=100" + window.location.hash;
     } else {
         if(window.location.search=="") {
-            newURL = window.location.origin + window.location.pathname + "?srt=1&pz=64" + window.location.hash;
+            newURL = window.location.origin + window.location.pathname + "?srt=1&pz=100" + window.location.hash;
         } else if(window.location.search.includes("srt") && window.location.search.includes("pz")){
             newURL = window.location.origin + window.location.pathname + window.location.search + window.location.hash;
         } else if(window.location.search.includes("srt") && !window.location.search.includes("pz")){
-            newURL = window.location.origin + window.location.pathname + window.location.search + "&pz=64" + window.location.hash;
+            newURL = window.location.origin + window.location.pathname + window.location.search + "&pz=100" + window.location.hash;
         } else if(!window.location.search.includes("srt") && window.location.search.includes("pz")){
             newURL = window.location.origin + window.location.pathname + window.location.search + "&srt=1" + window.location.hash;
         } else if(!window.location.search.includes("srt") && !window.location.search.includes("pz")){
-            newURL = window.location.origin + window.location.pathname + window.location.search + "&srt=1&pz=64" + window.location.hash;
+            newURL = window.location.origin + window.location.pathname + window.location.search + "&srt=1&pz=100" + window.location.hash;
         }
     }
     if (newURL!=window.location.href){
