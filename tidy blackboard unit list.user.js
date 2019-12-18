@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         tidy blackboard unit list
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1
 // @description  tidy blackboard unit list
 // @author       TomW1605
 // @match        https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_84_1
