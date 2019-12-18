@@ -5,6 +5,8 @@
 // @description  tidy blackboard unit list
 // @author       TomW1605
 // @match        https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_84_1
+// @match        https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1#
+// @match        https://lms.curtin.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.1.1.min.js
 // ==/UserScript==
