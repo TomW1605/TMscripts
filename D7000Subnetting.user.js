@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         D7000Subnetting
 // @namespace    TomW1605
-// @version      0.3
+// @version      0.4
 // @description  Enamble subnetting on D7000 IP resuervation page
 // @author       TomW1605
 // @match        http://192.168.0.1/*
@@ -12,5 +12,5 @@
 (function() {
     'use strict';
 
-    document.getElementsByName("rsv_ip3").forEach(function(item){item.disabled=false})
+    document.getElementsByName("rsv_ip3").forEach(function(item){item.disabled=false});
 })();
