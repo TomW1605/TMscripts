@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Altronics website fix
 // @namespace    TomW1605
-// @version      5.0
+// @version      6.0
 // @description  fix the sorting and the number of items per page showne on the altronics site
 // @author       TomW1605
 // @run-at       document-start
@@ -31,7 +31,7 @@
     'use strict';
     //console.log(window.location);
     var newURL = window.location.href;
-    if(newURL=="https://www.altronics.com.au/specials/") {
+    if(newURL=="https://www.altronics.com.au/new/") {
         newURL = window.location.origin + window.location.pathname + "?srt=9&pz=100" + window.location.hash;
     } else {
         if(window.location.search=="") {
