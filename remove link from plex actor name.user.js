@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         remove link from plex actor name
-// @namespace    http://tampermonkey.net/
+// @namespace    TomW1605
 // @version      0.1
 // @description  remove link from plex actor name
-// @author       You
+// @author       TomW1605
 // @match        https://app.plex.tv/desktop/
 // @icon         https://www.google.com/s2/favicons?domain=plex.tv
 // @grant        none
