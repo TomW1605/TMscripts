@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Altronics website fix
 // @namespace    TomW1605
-// @version      6.0
+// @version      6.1
 // @description  fix the sorting and the number of items per page showne on the altronics site
 // @author       TomW1605
 // @run-at       document-start
