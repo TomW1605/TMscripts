@@ -77,12 +77,12 @@
     });
 
     //2022
-    jQuery("a:contains(' (Semester 1 2022 Bentley Campus - INT[1])')").text(function(index, text) {
+    jQuery("a:contains(' (Semester 1 2022 Bentley Perth Campus - INT[1])')").text(function(index, text) {
         var newText = text.replace(" (Semester 1 2022 Bentley Campus - INT[1])", "");
         console.log(newText);
         return newText;
     });
-    jQuery("a:contains(' (Semester 2 2022 Bentley Campus - INT[1])')").text(function(index, text) {
+    jQuery("a:contains(' (Semester 2 2022 Bentley Perth Campus - INT[1])')").text(function(index, text) {
         var newText = text.replace(" (Semester 2 2022 Bentley Campus - INT[1])", "");
         console.log(newText);
         return newText;
