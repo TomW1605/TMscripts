@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Altronics website fix
 // @namespace    TomW1605
-// @version      6.1
+// @version      6.2
 // @description  fix the sorting and the number of items per page showne on the altronics site
 // @author       TomW1605
 // @run-at       document-start
@@ -13,7 +13,7 @@
 // @match        https://www.altronics.com.au/tools/*
 // @match        https://www.altronics.com.au/tech-data/*
 // @match        https://www.altronics.com.au/projects/*
-// @match        https://www.altronics.com.au/greenenergy-lighting/*
+// @match        https://www.altronics.com.au/led-lighting/*
 // @match        https://www.altronics.com.au/power-supplies/*
 // @match        https://www.altronics.com.au/transformers/*
 // @match        https://www.altronics.com.au/hardware/*
